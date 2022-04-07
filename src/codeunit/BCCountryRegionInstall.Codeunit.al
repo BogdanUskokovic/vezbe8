@@ -35,5 +35,6 @@ codeunit 50402 "BCCountry/Region-Install"
         CountryRegionSetup."Country/Region Code" := 'NO';
         CountryRegionSetup."Country/Region Enum" := CountryRegionSetup."Country/Region Enum"::RS;
         if not CountryRegionSetup.Insert() then;
+        //moja nova izmena
     end;
 }
