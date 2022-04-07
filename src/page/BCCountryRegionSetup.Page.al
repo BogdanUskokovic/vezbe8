@@ -7,6 +7,7 @@ page 50400 "BCCountry/Region Setup"
     ApplicationArea = All;
     InsertAllowed = false;
     DeleteAllowed = false;
+    //sad edit na remote
 
     layout
     {
