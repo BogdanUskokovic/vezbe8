@@ -1,7 +1,7 @@
 enum 50400 "CountryRegion Enum"
 {
     Extensible = true;
-    
+
     value(0; "")
     {
         Caption = '';
@@ -19,3 +19,7 @@ enum 50400 "CountryRegion Enum"
         Caption = ' Croatia';
     }
 }
+
+
+
+//Bogdan commit
