@@ -11,6 +11,7 @@ codeunit 50402 "BCCountry/Region-Install"
 
         if myAppInfo.DataVersion = Version.Create(0, 0, 0, 0) then
             HandleFreshInstall()
+        //opet promena 
         else
             HandleReinstall();
 
@@ -36,5 +37,6 @@ codeunit 50402 "BCCountry/Region-Install"
         CountryRegionSetup."Country/Region Enum" := CountryRegionSetup."Country/Region Enum"::RS;
         if not CountryRegionSetup.Insert() then;
         //moja nova izmena
+        //moja druga izmena
     end;
 }
